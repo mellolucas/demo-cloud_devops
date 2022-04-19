@@ -1,3 +1,11 @@
+
+  
+
+
+
+
+
+
 # Local .terraform directories
 **/.terraform/*
 
@@ -27,3 +35,15 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+
+# misc
+*.pem
+
+# Crash log files
+crash.log
+
+# Ansible
+*.retry
+
+*PX*
+''$'\001''PX@'$'\240\003\002''@8'
